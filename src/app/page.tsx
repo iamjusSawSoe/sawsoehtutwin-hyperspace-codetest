@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-white mb-5">Hello, My Name is Saw Soe Htut Win.</h1>
       <div className="flex gap-4">
         <Button href="/page-one">Go to Page One</Button>
-        <Button href="/page-one">Go to Page Two</Button>
+        <Button href="/page-two">Go to Page Two</Button>
       </div>
     </main>
   );

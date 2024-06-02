@@ -18,7 +18,7 @@ export default function Modal() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-slate-900 to-slate-700">
-      <h2 className="text-white mb-5">This is Modal Page.</h2>
+      <h2 className="text-white mb-5">This is Page One.</h2>
       <div className="flex gap-4">
         <Button onClick={handleOpenPopup}>Open Popup</Button>
         {showPopup && <Popup onClose={handleClosePopup} />}
